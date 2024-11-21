@@ -1,0 +1,11 @@
+services:
+  db-ewallet:
+    image: postgres:16
+    environment:
+      - POSTGRES_DB=ewalletdb
+      - POSTGRES_USER=ewallet
+      - POSTGRES_PASSWORD=ewallet123
+    ports:
+      - 54321:5432
+    volumes:
+      - ./db-ewallet:/var/lib/postgresql/data

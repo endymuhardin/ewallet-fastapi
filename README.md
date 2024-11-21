@@ -14,8 +14,20 @@
     source .venv/bin/activate
     ```
 
-3. Install dependencies
+4. Install dependencies
 
     ```
     pip install -r requirements.txt
+    ```
+
+5. Run test
+
+    ```
+    pytest
+    ```
+
+6. Run App
+
+    ```
+    fastapi dev app/main.py
     ```

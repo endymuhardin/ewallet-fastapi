@@ -67,3 +67,27 @@
     ```
     \d
     ```
+
+## Menjalankan Aplikasi ##
+
+1. Jalankan aplikasi
+
+2. Akses url berikut
+
+    * `http://localhost:8000/customer/` : menampilkan data semua customer
+    * `http://localhost:8000/customer/c001` : menampilkan data customer dengan id c001
+
+## Menjalankan Test ##
+
+* Unit Test
+
+    ```
+    pytest app/tests/customer_unit_test.py
+    ```
+   
+
+* Integration Test
+
+    ```
+    pytest app/tests/customer_integration_test.py
+    ```

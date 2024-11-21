@@ -91,3 +91,9 @@
     ```
     pytest app/tests/customer_integration_test.py
     ```
+
+* Coverage Test
+
+    ```
+    pytest --cov
+    ```
